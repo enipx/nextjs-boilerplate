@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Next JS Boilerplate Template
+
+This boilerplate provides you with a quick foundation for developing Expo apps with Expo Router, ESLint, and Redux toolkit pre-configured. It is designed to jumpstart your development process, allowing you to focus on building your app's unique features without the hassle of setting up these essential tools from scratch.
+
+## Features
+
+**App Router**: The template comes with Nextjs App Router, which simplifies navigation and provides a seamless user experience within your app.
+
+**ESLint**: ESLint is configured with recommended rules to ensure consistent code quality and adherence to best practices throughout your project.
+
+**Tailwind & Shadcn**: Tailwind and Shadcn is integrated, allowing you to get your UI up and running very fast.
 
 ## Getting Started
 
-First, run the development server:
+To use this boilerplate template, follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Clone this repository to your local machine using git clone <https://github.com/enipx/nextjs-boilerplate>.
+
+Install the project dependencies by running `npm install` or `yarn install`.
+
+Start the development server with `npm run dev` or `yarn dev`. This will launch your app in the development mode.
+
+## Folder Structure
+
+The boilerplate template follows a well-organized folder structure to keep your codebase clean and maintainable:
+
+``` lua
+|-- app
+|-- actions
+|-- components
+|-- helpers
+|-- hooks
+|-- types
+|-- ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**app**: Place your page here, organized by functionality.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**actions**: Server action methods goes here
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**components**: Reusable UI components go here.
 
-## Learn More
+**helpers**: Helpers methods goes here
 
-To learn more about Next.js, take a look at the following resources:
+**hooks**: Add your hooks here
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**types**: Add your typescript types here
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Customization
 
-## Deploy on Vercel
+Feel free to customize the template to meet your specific project needs. Add additional libraries, modify the Redux store, or adjust the folder structure as per your preferences.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I also welcome contributions to make this boilerplate even better. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
